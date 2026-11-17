@@ -1,0 +1,8 @@
+Sumber: https://open-meteo.com/en/terms dan https://open-meteo.com/en/licence (diakses 2026-11-12)
+
+Kutipan singkat:
+"You may only use the free API services for non-commercial purposes."
+"Less than 10'000 API calls per day, 5'000 per hour and 600 per minute."
+Data API dilisensikan di bawah "Attribution 4.0 International (CC BY 4.0)": wajib atribusi (mis. "Weather data by Open-Meteo.com"), tautan ke lisensi, dan tandai bila ada perubahan.
+
+Catatan: tugas kuliah termasuk penggunaan non-komersial/edukasi.

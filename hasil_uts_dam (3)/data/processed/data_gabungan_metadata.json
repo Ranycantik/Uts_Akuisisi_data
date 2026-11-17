@@ -1,0 +1,35 @@
+{
+  "dibuat": "2026-11-17T11:44:43",
+  "deskripsi": "Perjalanan wisatawan nusantara (BPS) digabung dengan cuaca bulanan (Open-Meteo) untuk lima provinsi tujuan",
+  "sumber_digabung": [
+    "BPS (berkas XLSX)",
+    "Open-Meteo (API)"
+  ],
+  "kunci_merge": [
+    "provinsi",
+    "periode (YYYY-MM)"
+  ],
+  "how": "left",
+  "validate": "one_to_one",
+  "baris": 240,
+  "kolom": [
+    "provinsi",
+    "periode",
+    "perjalanan",
+    "suhu_rata2_c",
+    "hujan_total_mm",
+    "hari_data"
+  ],
+  "baris_duplikat": 0,
+  "satuan": {
+    "perjalanan": "perjalanan",
+    "suhu_rata2_c": "derajat Celsius (rata-rata bulanan)",
+    "hujan_total_mm": "milimeter (total bulanan)"
+  },
+  "md5_hasil": "e475278ab9c220caf2d20cdd4ff2361d",
+  "provenance": "docs/provenance.csv",
+  "atribusi": [
+    "Badan Pusat Statistik. Jumlah Perjalanan Wisatawan Nusantara Menurut Provinsi Tujuan (Perjalanan), 2022-2025. Diakses 12 November 2026, https://www.bps.go.id/id/statistics-table/2/MjIwMSMy/jumlah-perjalanan-wisatawan-nusantara-menurut-provinsi-tujuan-perjalanan.html",
+    "Weather data by Open-Meteo.com, lisensi CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Data diolah: agregasi harian ke bulanan."
+  ]
+}
